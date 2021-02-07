@@ -26,7 +26,7 @@
     [:title "Hello world"]
     [:meta {:name "viewport" :content "width=device-width, initial-scale=1.0"}]
     [:link {:rel "stylesheet" :href "https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"}]
-    [:link {:rel "stylesheet" :href "https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/themes/prism-solarizedlight.min.css"}]
+    [:link {:rel "stylesheet" :href "https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/themes/prism-tomorrow.min.css"}]
     [:link {:href "https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" :rel "stylesheet"}]
     [:link {:href "https://fonts.gstatic.com" :rel "preconnect"}]
     [:link {:rel "stylesheet" :href "https://fonts.googleapis.com/css2?family=Forum&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"}]
@@ -68,7 +68,58 @@
 
               (defn -main []
                 (hello))
-             "]]]]]])
+             "]]]
+
+     [:section
+      [:h1.text-5xl {:style "font-family: Forum, serif;"} "Features"]
+      [:div.flex.flex-row.justify-between
+       [:div
+        [:h1.text-4xl "Feature"]
+        [:img {:src "./assets/twitter.svg" :width "100px"}]
+        [:p "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "]]
+       [:div
+        [:h1.text-4xl "Feature"]
+        [:img {:src "./assets/twitter.svg" :width "100px"}]
+        [:p "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "]]
+       [:div
+        [:h1.text-4xl "Feature"]
+        [:img {:src "./assets/twitter.svg" :width "100px"}]
+        [:p "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "]]]]
+     [:section
+      [:h1.text-5xl {:style "font-family: Forum, serif;"} "Our Community"]
+      [:div.flex.flex-row.justify-between
+        [:div.flex.flex-row
+         [:div
+
+          [:p "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "]
+          [:button "This"]]
+         [:img {:src "./assets/twitter.svg" :width "100px"}]]]]
+     [:section
+      [:h1.text-5xl {:style "font-family: Forum, serif;"} "Contribute"]
+      [:div.flex.flex-row.justify-between
+        [:div.flex.flex-row
+         [:div
+
+          [:p "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "]
+          [:button "This"]
+          [:button "That"]]
+         [:img {:src "./assets/twitter.svg" :width "100px"}]]]]
+     [:section.mb-3
+      [:h1.text-5xl.mb-3 {:style "font-family: Forum, serif;"} "Support"]
+      [:div.flex.flex-row.justify-between
+        [:div.flex.flex-row
+         [:div
+
+          [:p.mb-3 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "]
+          [:button.border.p-2.mr-2 "This"]
+          [:button.border.p-2.mr-2 "That"]]
+         [:img {:src "./assets/twitter.svg" :width "100px"}]]]]
+     [:footer.box-border.border-black.border-t.p-6
+      [:div.object-center
+       [:img.mx-auto {:src "./assets/logo.png"}]]]]]])
+
+
+
 
 
 
